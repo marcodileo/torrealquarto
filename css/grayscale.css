@@ -138,6 +138,10 @@ a {
     outline: none;
     background: rgba(255, 255, 255, 0.1); }
 
+.camere-section {
+  margin-top: 150px;
+  padding-bottom: 1rem; }
+
 .content-section {
   padding-top: 150px;
   padding-bottom: 150px; }
