@@ -203,7 +203,9 @@ ul.banner-social-buttons {
 }
 
 .arch {
-    font-family: 'Nunito', sans-serif;}
+    font-family: 'Nunito', sans-serif;
+    text-decoration:none;
+    color:black;}
 
 footer {
   padding: 50px 0; }
