@@ -167,15 +167,15 @@ a {
   border-radius: 0; }
 
 .btn-default {
-  color: #ff6347;
-  border: 1px solid #ff6347;
+  color: #ff3c1a;
+  border: 1px solid #ff3c1a;
   border-radius: 15px;
   background-color: transparent; }
   .btn-default:focus, .btn-default:hover {
     color: black;
-    border: 1px solid #ff6347;
+    border: 1px solid #ff3c1a;
     outline: none;
-    background-color: #ff6347; }
+    background-color: #ff3c1a; }
 
 ul.banner-social-buttons {
   margin-top: 0; }
