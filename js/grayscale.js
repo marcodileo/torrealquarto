@@ -188,6 +188,6 @@ function init() {
     icon: image
   });
   google.maps.event.addListener(beachMarker, 'click', function() {
-        window.open('https://goo.gl/maps/CGdHgzbMY6G2'+this.url);
+        window.open('https://goo.gl/maps/CGdHgzbMY6G2'+beachMarker.url);
     });
 }
