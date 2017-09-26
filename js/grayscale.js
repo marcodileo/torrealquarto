@@ -187,4 +187,7 @@ function init() {
     map: map,
     icon: image
   });
+  google.maps.event.addListener(marker, 'click', function () {
+  window.location.href = 'http://www.google.com';
+});
 }
