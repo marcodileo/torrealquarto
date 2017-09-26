@@ -188,6 +188,6 @@ function init() {
     icon: image
   });
   google.maps.event.addListener(beachMarker, 'click', function() {
-        window.open('https://www.google.it/maps/@41.2949235,15.9306798,17.52z'+this.url);
+        window.open('https://www.google.it/maps/place/41°17'41.2%22N+15°55'49.6%22E/@41.294791,15.9288088,17z/data=!3m1!4b1!4m6!3m5!1s0x0:0x0!7e2!8m2!3d41.2947879!4d15.9304389'+this.url);
     });
 }
