@@ -47,7 +47,7 @@ a {
   margin-bottom: 0;
   text-transform: uppercase;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-  background-color: fade(#fffae6, 70%); }
+  background-color: #fffae6; }
   #mainNav .navbar-toggler {
     font-size: 14px;
     padding: 11px;
