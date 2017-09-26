@@ -186,7 +186,8 @@ function init() {
     position: myLatLng,
     map: map,
     icon: image,
-    google.maps.event.addListener(marker, 'click', function() {
-    window.location.href = this.url;
   });
+  var marker = new google.maps.Marker({
+  url: 'http://www.google.com/',
+  map: map;
 }
