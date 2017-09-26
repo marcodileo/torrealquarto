@@ -48,7 +48,7 @@ a {
   margin-bottom: 0;
   text-transform: uppercase;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-  background-color: #fffae6; }
+  background-color:rgba(255, 250, 230,0.3);}
   #mainNav .navbar-toggler {
     font-size: 14px;
     padding: 11px;
@@ -83,7 +83,7 @@ a {
         padding-top: 10px;
         padding-bottom: 10px;
         border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-        background: #fffae6; }
+        background:rgba(255, 250, 230,0.3); }
       #mainNav .nav-link.active {
         outline: none;
         background-color: rgba(255, 255, 255, 0.3); }
