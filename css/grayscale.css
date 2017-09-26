@@ -168,12 +168,12 @@ a {
 
 .btn-default {
   color: #ff3c1a;
-  border: 1px solid #ff3c1a;
+  border: 2px solid #ff3c1a;
   border-radius: 15px;
   background-color: transparent; }
   .btn-default:focus, .btn-default:hover {
     color: black;
-    border: 1px solid #ff3c1a;
+    border: 2px solid #ff3c1a;
     outline: none;
     background-color: #ff3c1a; }
 
