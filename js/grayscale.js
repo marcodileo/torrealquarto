@@ -187,7 +187,7 @@ function init() {
     map: map,
     icon: image
   });
-  google.maps.event.addListener(marker, 'click', function () {
-  window.location.href = 'http://www.google.com';
-});
+  google.maps.event.addListener(beachMarker, 'click', function() {
+        window.open('https://www.youtube.com/watch?v='+this.url);
+    });
 }
