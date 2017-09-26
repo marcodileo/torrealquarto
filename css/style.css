@@ -40,7 +40,8 @@ a {
   transition: all 0.2s ease-in-out;
   color: #ff6347; }
   a:focus, a:hover {
-    text-decoration: none;}
+    text-decoration: none;
+    color: #ff3c1a;}
 
 #mainNav {
   font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
