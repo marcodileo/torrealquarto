@@ -167,7 +167,7 @@ a {
   border-radius: 0; }
 
 .btn-default {
-  color: #ff3c1a;
+  color: white;
   border: 2px solid #ff3c1a;
   border-radius: 15px;
   background-color: transparent; }
@@ -175,7 +175,7 @@ a {
     color: black;
     border: 2px solid #ff3c1a;
     outline: none;
-    background-color: #ff3c1a; }
+    background-color: #transparent; }
 
 ul.banner-social-buttons {
   margin-top: 0; }
