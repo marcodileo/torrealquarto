@@ -152,8 +152,8 @@ a {
 
 @media (min-width: 992px) {
   .content-section {
-    padding-top: 150px;
-    padding-bottom: 80px; }
+    padding-top: 70px;
+    padding-bottom: 1rem; }
   #map {
     height: 350px; } }
 
