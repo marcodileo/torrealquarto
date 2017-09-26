@@ -174,7 +174,7 @@ a {
 .btn-default {
   color: #ff6347;
   border: 1px solid #ff6347;
-  border-radius:15px;
+  border-radius: 15px;
   background-color: transparent; }
   .btn-default:focus, .btn-default:hover {
     color: black;
