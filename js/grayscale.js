@@ -185,9 +185,6 @@ function init() {
   var beachMarker = new google.maps.Marker({
     position: myLatLng,
     map: map,
-    icon: image,
+    icon: image
   });
-  var marker = new google.maps.Marker({
-  url: 'http://www.google.com/',
-  map: map;
 }
