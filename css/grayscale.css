@@ -139,12 +139,12 @@ a {
     background: rgba(255, 255, 255, 0.1); }
 
 .camere-section {
-  margin-top: 150px;
+  margin-top: 1rem;
   padding-bottom: 1rem; }
 
 .content-section {
   padding-top: 150px;
-  padding-bottom: 150px; }
+  padding-bottom: 100px; }
 
 #map {
   width: 100%;
