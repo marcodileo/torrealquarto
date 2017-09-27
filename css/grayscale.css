@@ -142,12 +142,12 @@ a {
   margin-top: 1rem;
   padding-bottom: 70px; }
 
-.servizi-section {
+.servizi-image {
   color: white;
-padding-top: 100px;
-padding-bottom: 100px;
+padding-top: 180px;
+padding-bottom: 180px;
   background: url("../img/downloads-bg.jpg") no-repeat center center scroll;
-  background-color: black;
+  background-color: white;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
