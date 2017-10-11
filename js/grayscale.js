@@ -181,23 +181,24 @@ function init() {
 
   // Custom Map Marker Icon - Customize the map-marker.png file to customize your icon
 var icon1 = 'img/map-marker.svg';
-var icon2 = 'img/map-marker2.svg';  
+var icon2 = 'img/map-marker2.svg';
+var myLatLng = new google.maps.LatLng(41.294832, 15.930493);
 
-  var myLatLng = new google.maps.LatLng(41.294832, 15.930493);
-  var beachMarker = new google.maps.Marker({
+var beachMarker = new google.maps.Marker({
     position: myLatLng,
     map: map,
-    icon: icon1
-  });
-
-google.maps.event.addListener(marker, 'mouseover', function() {
-    marker.setIcon(icon2);
-});
-google.maps.event.addListener(marker, 'mouseout', function() {
-    marker.setIcon(icon1);
+    icon: icon1,
+    title: "some marker"
 });
 
-  google.maps.event.addListener(beachMarker, 'click', function() {
+google.maps.event.addListener(beachMarker, 'mouseover', function() {
+    beachMarker.setIcon(icon2);
+});
+google.maps.event.addListener(beachMarker, 'mouseout', function() {
+    beachMarker.setIcon(icon1);
+}); 
+
+google.maps.event.addListener(beachMarker, 'click', function() {
         window.open('https://goo.gl/maps/SSERWfV2rM92');
     });
 }
