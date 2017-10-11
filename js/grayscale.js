@@ -180,13 +180,23 @@ function init() {
   map = new google.maps.Map(mapElement, mapOptions);
 
   // Custom Map Marker Icon - Customize the map-marker.png file to customize your icon
-  var image = 'img/map-marker.svg';
+var icon1 = 'img/map-marker.svg';
+var icon2 = 'img/map-marker2.svg';  
+
   var myLatLng = new google.maps.LatLng(41.294832, 15.930493);
   var beachMarker = new google.maps.Marker({
     position: myLatLng,
     map: map,
-    icon: image
+    icon: icon1
   });
+
+google.maps.event.addListener(marker, 'mouseover', function() {
+    marker.setIcon(icon2);
+});
+google.maps.event.addListener(marker, 'mouseout', function() {
+    marker.setIcon(icon1);
+});
+
   google.maps.event.addListener(beachMarker, 'click', function() {
         window.open('https://goo.gl/maps/SSERWfV2rM92');
     });
