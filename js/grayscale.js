@@ -187,8 +187,7 @@ var myLatLng = new google.maps.LatLng(41.294832, 15.930493);
 var beachMarker = new google.maps.Marker({
     position: myLatLng,
     map: map,
-    icon: icon1,
-    title: "some marker"
+    icon: icon1
 });
 
 google.maps.event.addListener(beachMarker, 'mouseover', function() {
