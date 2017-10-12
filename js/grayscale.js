@@ -86,7 +86,22 @@ function init() {
       }, {
         "lightness": 17
       }]
-    }, {
+    },
+   {
+            featureType: 'road.arterial',
+            elementType: 'labels.text.fill',
+            stylers: [{
+        "visibility": "off"
+      }]
+          },
+   {
+            featureType: 'road.local',
+            elementType: 'labels.text.fill',
+            stylers: [{
+        "visibility": "off"
+      }]
+          },
+ {
       "featureType": "road.highway",
       "elementType": "geometry.stroke",
       "stylers": [{
@@ -134,9 +149,9 @@ function init() {
       "stylers": [{
         "saturation": 36
       }, {
-        "color": "#c6c6c6"
+        "color": "#000000"
       }, {
-        "lightness": 40
+        "lightness": 60
       }]
     }, {
       "elementType": "labels.icon",
