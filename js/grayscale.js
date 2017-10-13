@@ -138,7 +138,7 @@ function init() {
     }, {
       "elementType": "labels.text.stroke",
       "stylers": [{
-        "visibility": "on"
+        "visibility": "off"
       }, {
         "color": "#000000"
       }, {
