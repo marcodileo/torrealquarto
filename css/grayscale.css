@@ -41,10 +41,11 @@ a {
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
-  color: #ff6347; }
+  color: #ff3c1a; }
   a:focus, a:hover {
     text-decoration: none;
-    color: #ff3c1a; }
+    color: #ffffff;
+    hover: #ff3c1a;}
 
 #mainNav {
   font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
