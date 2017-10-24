@@ -191,7 +191,7 @@ padding-bottom: 70px;
     background-color: #transparent; }
 
 ul.banner-social-buttons {
-  margin-top: 0; }
+  margin-top: 25; }
   @media (max-width: 1199px) {
     ul.banner-social-buttons {
       margin-top: 15px; } }
