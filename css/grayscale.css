@@ -25,9 +25,8 @@ h6 {
   letter-spacing: 1px;
   text-transform: uppercase; }
 p1 {
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 1.2rem;
-  font-weight: 600; }
+  font-family: 'Cormorant Garamond', serif;font-weight:600;letter-spacing:1px;
+  font-size: 1.2rem; }
 p {
   font-size: 1rem;
   line-height: 1.5;
