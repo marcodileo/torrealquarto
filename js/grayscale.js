@@ -205,13 +205,6 @@ var beachMarker = new google.maps.Marker({
     icon: icon1
 });
 
-google.maps.event.addListener(beachMarker, 'mouseover', function() {
-    beachMarker.setIcon(icon2);
-});
-google.maps.event.addListener(beachMarker, 'mouseout', function() {
-    beachMarker.setIcon(icon1);
-}); 
-
 google.maps.event.addListener(beachMarker, 'click', function() {
         window.open('https://goo.gl/maps/SSERWfV2rM92');
     });
