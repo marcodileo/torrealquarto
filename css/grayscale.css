@@ -56,7 +56,8 @@ a {
     font-size: 14px;
     padding: 11px;
     color: white;
-    border: 1px solid white; }
+    border: 2px solid white;
+    border-radius: 8px; }
   #mainNav .navbar-brand {
     font-weight: 700; }
   #mainNav a {
