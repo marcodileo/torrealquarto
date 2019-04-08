@@ -235,7 +235,7 @@ ul.banner-social-buttons {
 	-o-transition: none;
 	transition: none;
 }
-@media (max-width: 850px) {
+@media (max-width: 900px) {
 #contact form {
 	padding: 0 5% 0 5%;
 } }
